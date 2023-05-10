@@ -1,0 +1,124 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+a{
+    list-style: none;
+    text-decoration: none;
+}
+.div__logo{
+    width: 60px;
+    border-radius: 6rem;
+    position: relative;
+    top: 1rem;
+    left: 3rem;
+    display: flex;
+    margin: 10px 0 0 0;
+    justify-content: center;
+    align-items: center;
+
+}
+.div__logo span{
+    font-weight: bold;
+    padding: 7px;
+    font-size: 20px;
+    position: relative;
+    top: 1.2rem;
+    left: 4rem;
+}
+.div__logo a{
+    position: relative
+    left 180px;
+    color: black;
+    font-size: 18px;
+    display: table;
+    text-align: left;
+    width: 300px;
+    padding: 10px;
+
+}
+.logo{
+    width: 100%;
+    border-radius: 6rem;
+    z-index: 100;
+    position: absolute;
+
+}
+ul{
+    
+}
+ul img{
+    width: 30px;
+}
+.div__ajuste img{
+    width: 30px;
+}
+.main__container{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(
+        45deg,
+        hsl(240, 73%, 28%) 0%,
+        hsl(289, 49%, 68%) 15%,
+        hsl(339, 57%, 59%) 43%,
+        hsl(49, 63%, 60%) 66%,
+        hsl(43, 75%, 64%) 81%,
+        hsl(0, 59%, 58%) 99%
+    )
+    ;
+}
+.left__menu{
+    background: white;
+    width: 4.5rem;
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    overflow: hidden;
+    transition: all .4s ease;
+    position: absolute;
+}
+.left__menu ul{
+    margin-top: 2rem;
+    margin-left: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    height: 70vh;
+    justify-content: space-evenly;
+}
+ul {
+    align-items: center;
+    transition: all .3s linear;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    align-items: center; 
+}
+ul img{
+    margin-right: 1.5rem;
+}
+ul a{
+    color: #000;
+    padding: 0.5rem;
+
+}
+.left__menu:hover{
+    width: 13rem;
+}
+
+.left__menu ul a{
+    display: flex;
+    align-items: center;
+}
+
+#settings{
+    position: absolute;
+    bottom: 1rem;
+}
+
+ul a:hover{
+    color: red;
+    transform: translateX(.4rem);
+    transition: all .4s linear;
+}
